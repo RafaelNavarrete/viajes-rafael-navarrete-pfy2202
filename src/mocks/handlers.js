@@ -2,8 +2,6 @@ import { http, graphql, HttpResponse, delay } from "msw";
 import { destinos, vuelos, hoteles } from "./data";
 
 export const handlers = [
-  // ===== FASE 2: REST =====
-
   // Lista de todos los destinos
   http.get("*/api/destinos", async () => {
     await delay(500); // simula la demora de un servidor real
@@ -22,8 +20,6 @@ export const handlers = [
     }
     return HttpResponse.json(destino);
   }),
-
-  // ===== FASE 3: GRAPHQL =====
 
   // Coincide con la query llamada ObtenerOpcionesViaje
   graphql.query("ObtenerOpcionesViaje", async ({ variables }) => {
