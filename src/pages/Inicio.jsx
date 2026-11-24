@@ -25,7 +25,6 @@ export default function Inicio() {
       <section className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         {pasos.map((paso) => (
           <div key={paso.titulo} className="bg-white rounded-xl shadow p-6 text-center">
-            <div className="text-4xl mb-2">{paso.icono}</div>
             <h2 className="font-semibold text-lg mb-1">{paso.titulo}</h2>
             <p className="text-sm text-gray-600">{paso.texto}</p>
           </div>

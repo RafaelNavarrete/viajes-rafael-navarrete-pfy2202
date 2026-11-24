@@ -42,3 +42,10 @@ https://github.com/RafaelNavarrete/viajes-rafael-navarrete-pfy2202
 
 ## Aplicación publicada
 https://rafaelnavarrete.github.io/viajes-rafael-navarrete-pfy2202/
+
+## Oryebas en navegadores
+| Navegador | Destinos (REST) | Vuelos y hoteles (GraphQL) | Navegación | Resultado |
+|---|---|---|---|---|
+| Chrome | Correcto | Correcto | Correcto | Sin errores |
+| Brave | Correcto | Correcto | Correcto | Sin errores |
+| Opera | Correcto | Correcto | Correcto | Sin errores |

@@ -1,9 +1,9 @@
 export const destinos = [
-  { id: "1", nombre: "Cusco", pais: "Perú", emoji: "🏔️", actividades: ["Machu Picchu", "Valle Sagrado", "Gastronomía andina"] },
-  { id: "2", nombre: "Buenos Aires", pais: "Argentina", emoji: "💃", actividades: ["Tango", "Parrilladas", "Barrio de San Telmo"] },
-  { id: "3", nombre: "Río de Janeiro", pais: "Brasil", emoji: "🏖️", actividades: ["Playa de Copacabana", "Cristo Redentor", "Pan de Azúcar"] },
-  { id: "4", nombre: "Cancún", pais: "México", emoji: "🌴", actividades: ["Snorkel", "Chichén Itzá", "Isla Mujeres"] },
-  { id: "5", nombre: "Madrid", pais: "España", emoji: "🏛️", actividades: ["Museo del Prado", "Parque del Retiro", "Tapas"] },
+  { id: "1", nombre: "Cusco", pais: "Perú", actividades: ["Machu Picchu", "Valle Sagrado", "Gastronomía andina"] },
+  { id: "2", nombre: "Buenos Aires", pais: "Argentina", actividades: ["Tango", "Parrilladas", "Barrio de San Telmo"] },
+  { id: "3", nombre: "Río de Janeiro", pais: "Brasil", actividades: ["Playa de Copacabana", "Cristo Redentor", "Pan de Azúcar"] },
+  { id: "4", nombre: "Cancún", pais: "México", actividades: ["Snorkel", "Chichén Itzá", "Isla Mujeres"] },
+  { id: "5", nombre: "Madrid", pais: "España", actividades: ["Museo del Prado", "Parque del Retiro", "Tapas"] },
 ];
 
 export const vuelos = [
